@@ -5,7 +5,7 @@ package is.xyz.mpv;
 import android.util.SparseArray;
 import static android.view.KeyEvent.*;
 
-class KeyMapping {
+public class KeyMapping {
     public static final SparseArray<String> map = new SparseArray<>();
 
     static {
